@@ -28,26 +28,11 @@
            
                 <span>Cantidad de Registros: <b> </b> </span>
           
-                    <strong>{{$insumos->count()}}</strong>
+                    <strong>{{$computos->count()}}</strong>
               </div>
             
         <table width="900px" class="table table-striped" >
 
-        <div class="row">
-            <div class="col-12 col-md-4 text-center">
-                <span>Fecha de Consulta: <b> </b> </span>
-            <div class="form-group">
-                    <strong>{{\Carbon\Carbon::now()->format('d/m/Y')}}</strong>
-                </div>
-            </div>
-        
-         
-            <div class="col-12 col-md-4 text-center">
-                <span>Cantidad de Registros: <b> </b> </span>
-            <div class="form-group">
-                    <strong>{{$computos->count()}}</strong>
-                </div>
-            </div>
        
 
             <thead>

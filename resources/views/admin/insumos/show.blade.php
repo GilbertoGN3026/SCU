@@ -21,11 +21,11 @@
                     <div class="card-body">
                         
                         <div class="form-group">
-                            <strong>Nombre Completo:</strong>
+                            <strong>Solicitante:</strong>
                             {{ $insumo->user_nombre }}
                         </div>
                         <div class="form-group">
-                            <strong>Número de Cuenta:</strong>
+                            <strong>No. de Cuenta:</strong>
                             {{ $insumo->numero_cuenta }}
                         </div>
                         <div class="form-group">

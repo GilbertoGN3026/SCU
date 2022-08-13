@@ -2,7 +2,7 @@
 @section('title', 'Dashboard')
 
 @section('content_header')
-<h1>Gráficas de Equipo de Computo, Impresiones y Escaneo.</h1>
+<h1>Gráficas de Equipo de Cómputo, Impresiones y Escaneo.</h1>
 @stop
 
 @section('content')
@@ -23,7 +23,7 @@ var datas = <?php echo json_encode($datas)?>;
     type: 'column'
   },
         title: {
-            text: 'Registros de solicitantes por mes "Equipo de Computo,Impresiones y Escaneo" '
+            text: 'Registros de solicitantes por mes "Equipo de Cómputo, Impresiones y Escaneo" '
         },
         subtitle: {
             text: ''
@@ -83,7 +83,7 @@ var comp2 = <?php echo json_encode($comp2)?>;
             text: 'Tipo de Servicio'
         },
         subtitle: {
-            text: 'Registro de los solicitantes por tipo de Servicio'
+            text: 'Registro de los solicitantes por tipo de servicio'
         },
         xAxis: {
             categories: ['Equipo de computo','Escaneo', 'Impresiones', 
@@ -92,7 +92,7 @@ var comp2 = <?php echo json_encode($comp2)?>;
         },
         yAxis: {
             title: {
-                text: 'Numero de registros'
+                text: 'Número de registros'
             }
         },
         legend: {
@@ -106,7 +106,7 @@ var comp2 = <?php echo json_encode($comp2)?>;
             }
         },
         series: [{
-            name: 'Registros de tipo de servicio',
+            name: 'Solicitantes de tipo de servicio',
              colorByPoint: true,
             data: comp2
             
@@ -142,7 +142,7 @@ var comp3 = <?php echo json_encode($comp3)?>;
             text: 'Licenciaturas'
         },
         subtitle: {
-            text: 'Registro de los solicitantes de Equipo de Computo, Escaneo e Impresiones por carrera'
+            text: 'Registro de los solicitantes de Equipo de Cómputo, Escaneo e Impresiones por carrera'
         },
         xAxis: {
             categories: ['Psicología','Educación','Trabajo social','Cultura Física y Deporte','Otros',
@@ -150,7 +150,7 @@ var comp3 = <?php echo json_encode($comp3)?>;
         },
         yAxis: {
             title: {
-                text: 'Numero de registros'
+                text: 'Número de registros'
             }
         },
         legend: {
@@ -200,7 +200,7 @@ var comp4 = <?php echo json_encode($comp4)?>;
             text: 'Usuarios'
         },
         subtitle: {
-         text: 'Registro de los solicitantes de Equipo de Computo, Escaneo e Impresiones por usuario'
+         text: 'Registro de los solicitantes de Equipo de Cómputo, Escaneo e Impresiones por usuario'
 
         },
         xAxis: {
@@ -209,7 +209,7 @@ var comp4 = <?php echo json_encode($comp4)?>;
         },
         yAxis: {
             title: {
-                text: 'Numero de registros'
+                text: 'Número de registros'
             }
         },
         legend: {
@@ -223,7 +223,7 @@ var comp4 = <?php echo json_encode($comp4)?>;
             }
         },
         series: [{
-            name: 'Registros de tipos de usuarios',
+            name: 'Solicitantes por tipo de usuario',
             data: comp4
         }],
         responsive: {

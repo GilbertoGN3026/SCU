@@ -37,7 +37,7 @@ var datas = <?php echo json_encode($datas)?>;
         },
         yAxis: {
             title: {
-                text: 'Numero de insumos'
+                text: 'Número de insumos'
             }
         },
         legend: {
@@ -96,7 +96,7 @@ var insu2 = <?php echo json_encode($insu2)?>;
         },
         yAxis: {
             title: {
-                text: 'Numero de solicitantes'
+                text: 'Número de solicitantes'
             }
         },
         legend: {
@@ -163,7 +163,7 @@ var insu3 = <?php echo json_encode($insu3)?>;
         },
         yAxis: {
             title: {
-                text: 'Numero de solicitantes'
+                text: 'Número de solicitantes'
             }
         },
         legend: {
@@ -177,7 +177,7 @@ var insu3 = <?php echo json_encode($insu3)?>;
             }
         },
         series: [{
-            name: 'Solicitantes por Carrera',
+            name: 'Solicitantes por Tipo',
              colorByPoint: true,
             data: insu3
             

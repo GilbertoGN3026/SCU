@@ -107,7 +107,7 @@
                             {{ $computo->nombre_completo }}
                         </div>
                         <div class="form-group">
-                            <strong>Numero de Cuenta:</strong>
+                            <strong>No. de Cuenta:</strong>
                             {{ $computo->numero_cuenta }}
                         </div>
                         <div class="form-group">
@@ -115,7 +115,7 @@
                             {{ $computo->servicio->nombre_servicio }}
                         </div>
                         <div class="form-group">
-                            <strong>Numero de Equipo, Impresiones o Escaneo:</strong>
+                            <strong>Número de Equipo, Impresiones o Escaneo:</strong>
                             {{ $computo->numero_eie }}
                         </div>
                         <div class="form-group">

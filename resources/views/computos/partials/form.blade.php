@@ -3,7 +3,7 @@
             <div class="mb-12">
           <div class="form-group">
             {{ Form::label('Nombre_completo') }}
-            {{ Form::text('nombre_completo', $computo->nombre_completo, ['class' => 'form-control' . ($errors->has('nombre_completo') ? ' is-invalid' : ''), 'placeholder' => 'Introduce tu Nombre', ]) }}
+            {{ Form::text('nombre_completo', $computo->nombre_completo, ['class' => 'form-control' . ($errors->has('nombre_completo') ? ' is-invalid' : ''), 'placeholder' => 'Nombre Completo', ]) }}
             {!! $errors->first('nombre_completo', '<div class="invalid-feedback">:message</div>') !!}
         </div>
              </div>
@@ -13,8 +13,8 @@
         <div class="card col-sm-12 p-3" >
             <div class="mb-12">
         <div class="form-group">
-            {{ Form::label('numero_cuenta') }}
-            {{ Form::text('numero_cuenta', $computo->numero_cuenta, ['class' => 'form-control' . ($errors->has('numero_cuenta') ? ' is-invalid' : ''), 'placeholder' => 'Introduce tu Numero de Cuenta']) }}
+            {{ Form::label('Número_cuenta') }}
+            {{ Form::text('numero_cuenta', $computo->numero_cuenta, ['class' => 'form-control' . ($errors->has('numero_cuenta') ? ' is-invalid' : ''), 'placeholder' => 'Número de Cuenta']) }}
             {!! $errors->first('numero_cuenta', '<div class="invalid-feedback">:message</div>') !!}
         </div>
            </div>
@@ -26,7 +26,7 @@
             <div class="mb-12">
         <div class="form-group">
             {{ Form::label('Tipo de servicio') }}
-            {{ Form::select('servicio_id',$servicios, $computo->servicio_id, ['class' => 'form-control' . ($errors->has('servicio_id') ? ' is-invalid' : ''), 'placeholder' => 'Selecciona el Servicio']) }}
+            {{ Form::select('servicio_id',$servicios, $computo->servicio_id, ['class' => 'form-control' . ($errors->has('servicio_id') ? ' is-invalid' : ''), 'placeholder' => 'Selecciona el servicio']) }}
             {!! $errors->first('servicio_id', '<div class="invalid-feedback">:message</div>') !!}
         </div>
               </div>
@@ -39,8 +39,8 @@
         <div class="card col-sm-12 p-3" >
             <div class="mb-12">
         <div class="form-group">
-            {{ Form::label('Numero de Equipo, Impresiones y Escaneo') }}
-            {{ Form::text('numero_eie', $computo->numero_eie, ['class' => 'form-control' . ($errors->has('numero_eie') ? ' is-invalid' : ''), 'placeholder' => 'Introduce el Numero']) }}
+            {{ Form::label('Número de Equipo, Impresiones y Escaneo') }}
+            {{ Form::text('numero_eie', $computo->numero_eie, ['class' => 'form-control' . ($errors->has('numero_eie') ? ' is-invalid' : ''), 'placeholder' => 'Número']) }}
             {!! $errors->first('numero_eie', '<div class="invalid-feedback">:message</div>') !!}
         </div>
          </div>
@@ -52,7 +52,7 @@
             <div class="mb-12">
         <div class="form-group">
             {{ Form::label('Licenciatura') }}
-            {{ Form::select('licenciatura_id',$licenciaturas, $computo->licenciatura_id, ['class' => 'form-control' . ($errors->has('licenciatura_id') ? ' is-invalid' : ''), 'placeholder' => 'Selecciona la Licenciatura']) }}
+            {{ Form::select('licenciatura_id',$licenciaturas, $computo->licenciatura_id, ['class' => 'form-control' . ($errors->has('licenciatura_id') ? ' is-invalid' : ''), 'placeholder' => 'Selecciona la licenciatura']) }}
             {!! $errors->first('licenciatura_id', '<div class="invalid-feedback">:message</div>') !!}
         </div>
           </div>
@@ -76,7 +76,7 @@
             <div class="mb-12">
         <div class="form-group">
             {{ Form::label('Sugerencias') }}
-            {{ Form::text('sugerencias', $computo->sugerencias, ['class' => 'form-control' . ($errors->has('sugerencias') ? ' is-invalid' : ''), 'placeholder' => 'Introduce tu sugerencia']) }}
+            {{ Form::text('sugerencias', $computo->sugerencias, ['class' => 'form-control' . ($errors->has('sugerencias') ? ' is-invalid' : ''), 'placeholder' => 'Sugerencia']) }}
             {!! $errors->first('sugerencias', '<div class="invalid-feedback">:message</div>') !!}
         </div>
          </div>

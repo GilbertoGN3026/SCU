@@ -25,14 +25,14 @@
                 <tr>
                     <th>ID</th>
                     <th>Solicitante</th>
-                    <th>Numero de Cuenta</th>
+                    <th>No. de Cuenta</th>
                     <th>Aula</th>
-                    <th>Telefono</th>
+                    <th>Teléfono</th>
                     <th>Unidad de Aprendizaje</th>
                     <th>Profesor</th>
                     <th>Licenciatura</th>
                     <th>Tipo</th>
-                    <th>Numero</th>
+                    <th>Número</th>
                     <th>Fecha y Hora de Solicitud</th>
                     <th>Fecha y Hora de Entrega</th>
                     <th>Conformidad</th>

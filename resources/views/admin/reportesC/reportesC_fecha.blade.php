@@ -84,9 +84,9 @@
                 <tr>
                     <th>ID</th>
                     <th>Solicitante</th>
-                    <th>Numero de Cuenta</th>
+                    <th>No. de Cuenta</th>
                     <th>Tipo de servicio</th>
-                    <th>Numero de Equipo,Impreiones o Escaneos</th>
+                    <th>Número de Equipo, Impresiones o Escaneos</th>
                     <th>Licenciatura</th>
                     <th>Usuario</th>
                     <th>Sugerencia</th>

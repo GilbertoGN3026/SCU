@@ -51,7 +51,7 @@
         <div class="mb-12">
         <div class="form-group" >
             {{ Form::label('Nombre Completo') }}
-            {{ Form::text('user_nombre', $insumo->user_nombre, ['class' => 'form-control' . ($errors->has('user_nombre') ? ' is-invalid' : ''), 'placeholder' => 'Inserta tu Nombre']) }}
+            {{ Form::text('user_nombre', $insumo->user_nombre, ['class' => 'form-control' . ($errors->has('user_nombre') ? ' is-invalid' : ''), 'placeholder' => 'Nombre completo']) }}
             {!! $errors->first('user_nombre', '<div class="invalid-feedback">:message</div>') !!}
         </div>
          </div>
@@ -60,7 +60,7 @@
             <div class="mb-12">
         <div class="form-group">
             {{ Form::label('Numero de Cuenta') }}
-            {{ Form::text('numero_cuenta', $insumo->numero_cuenta, ['class' => 'form-control' . ($errors->has('numero_cuenta') ? ' is-invalid' : ''), 'placeholder' => 'Numero Cuenta']) }}
+            {{ Form::text('numero_cuenta', $insumo->numero_cuenta, ['class' => 'form-control' . ($errors->has('numero_cuenta') ? ' is-invalid' : ''), 'placeholder' => 'Numero de cuenta']) }}
             {!! $errors->first('numero_cuenta', '<div class="invalid-feedback">:message</div>') !!}
         </div>
          </div>
@@ -87,7 +87,7 @@
             <div class="mb-12">
         <div class="form-group">
             {{ Form::label('Unidad de Aprendizaje') }}
-            {{ Form::text('unidad_aprendizaje', $insumo->unidad_aprendizaje, ['class' => 'form-control' . ($errors->has('unidad_aprendizaje') ? ' is-invalid' : ''), 'placeholder' => 'Unidad de Aprendizaje']) }}
+            {{ Form::text('unidad_aprendizaje', $insumo->unidad_aprendizaje, ['class' => 'form-control' . ($errors->has('unidad_aprendizaje') ? ' is-invalid' : ''), 'placeholder' => 'Unidad de aprendizaje']) }}
             {!! $errors->first('unidad_aprendizaje', '<div class="invalid-feedback">:message</div>') !!}
         </div>
          </div>
@@ -105,7 +105,7 @@
             <div class="mb-12">
         <div class="form-group">
             {{ Form::label('Licenciatura') }}
-            {{ Form::select('licenciatura_id',$licenciaturas, $insumo->licenciatura_id, ['class' => 'form-control' . ($errors->has('licenciatura_id') ? ' is-invalid' : ''), 'placeholder' => 'Licenciatura']) }}
+            {{ Form::select('licenciatura_id',$licenciaturas, $insumo->licenciatura_id, ['class' => 'form-control' . ($errors->has('licenciatura_id') ? ' is-invalid' : ''), 'placeholder' => 'Selecciona la licenciatura']) }}
             {!! $errors->first('licenciatura_id', '<div class="invalid-feedback">:message</div>') !!}
         </div>
          </div>
@@ -122,7 +122,7 @@
           <div class="card col-sm-12 p-3" >
             <div class="mb-12">
         <div class="form-group">
-            {{ Form::label('Numero De Insumo') }}
+            {{ Form::label('Número De Insumo') }}
             {{ Form::select('numero_id',$numeros, $insumo->numero_id, ['class' => 'form-control' . ($errors->has('numero_id') ? ' is-invalid' : ''), 'placeholder' => 'Selecciona el Número']) }}
             {!! $errors->first('numero_id', '<div class="invalid-feedback">:message</div>') !!}
         </div>

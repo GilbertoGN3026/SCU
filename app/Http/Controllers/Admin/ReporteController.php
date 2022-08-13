@@ -230,9 +230,9 @@ class ReporteController extends Controller
         ->whereMonth('created_at','>=' , '06')
 	    ->whereMonth('created_at','<=', '12')
 	    ->get();
-        $pdf = PDF::loadView('admin.reportesC.pdfC_mes',['computos'=>$computos])->setPaper('a3', 'landscape');;
+        $pdf = PDF::loadView('admin.reportesC.pdfC_mes2',['computos'=>$computos])->setPaper('a3', 'landscape');;
         return $pdf->stream();
-        return view('admin.reportesC.pdfC_mes',compact('computos'));
+        return view('admin.reportesC.pdfC_mes2',compact('computos'));
 
     }
     
