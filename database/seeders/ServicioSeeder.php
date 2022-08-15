@@ -20,11 +20,11 @@ class ServicioSeeder extends Seeder
            
         ]);
         Servicio::create([
-            'nombre_servicio' => 'Impresiones',
+            'nombre_servicio' => 'Escaneo',
            
         ]);
         Servicio::create([
-            'nombre_servicio' => 'Escaneo',
+            'nombre_servicio' => 'Impresiones',
            
         ]);
     }

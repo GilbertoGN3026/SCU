@@ -15,7 +15,7 @@ return [
     */
 
     'title' => '',
-    'title_prefix' => 'SSC',
+    'title_prefix' => 'SCU',
     'title_postfix' => '| Sistema de Captura Universitaria',
 
     /*

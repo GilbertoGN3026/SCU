@@ -16,11 +16,11 @@ class UsuarSeeder extends Seeder
     public function run()
     {
         Usuar::create([
-            'tipo_usuario' => 'Alumno',
+            'tipo_usuario' => 'Administrativo',
            
         ]);
         Usuar::create([
-            'tipo_usuario' => 'Administrativo',
+            'tipo_usuario' => 'Alumno',
            
         ]);
         Usuar::create([

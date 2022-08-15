@@ -26,7 +26,7 @@
             <div class="mb-12">
         <div class="form-group">
             {{ Form::label('Tipo de servicio') }}
-            {{ Form::select('servicio_id',$servicios, $computo->servicio_id, ['class' => 'form-control' . ($errors->has('servicio_id') ? ' is-invalid' : ''), 'placeholder' => 'Selecciona el servicio']) }}
+            {{ Form::select('servicio_id',$servicios, $computo->servicio_id, ['class' => 'form-control' . ($errors->has('servicio_id') ? ' is-invalid' : ''), 'placeholder' => 'Selecciona el Servicio']) }}
             {!! $errors->first('servicio_id', '<div class="invalid-feedback">:message</div>') !!}
         </div>
               </div>
@@ -52,7 +52,7 @@
             <div class="mb-12">
         <div class="form-group">
             {{ Form::label('Licenciatura') }}
-            {{ Form::select('licenciatura_id',$licenciaturas, $computo->licenciatura_id, ['class' => 'form-control' . ($errors->has('licenciatura_id') ? ' is-invalid' : ''), 'placeholder' => 'Selecciona la licenciatura']) }}
+            {{ Form::select('licenciatura_id',$licenciaturas, $computo->licenciatura_id, ['class' => 'form-control' . ($errors->has('licenciatura_id') ? ' is-invalid' : ''), 'placeholder' => 'Selecciona la Licenciatura']) }}
             {!! $errors->first('licenciatura_id', '<div class="invalid-feedback">:message</div>') !!}
         </div>
           </div>
@@ -64,7 +64,7 @@
             <div class="mb-12">
         <div class="form-group">
             {{ Form::label('Usuario') }}
-            {{ Form::select('usuar_id',$usuarios, $computo->usuar_id, ['class' => 'form-control' . ($errors->has('usuar_id') ? ' is-invalid' : ''), 'placeholder' => 'Selecciona el tipo de usuario']) }}
+            {{ Form::select('usuar_id',$usuarios, $computo->usuar_id, ['class' => 'form-control' . ($errors->has('usuar_id') ? ' is-invalid' : ''), 'placeholder' => 'Selecciona el Tipo de Usuario']) }}
             {!! $errors->first('usuar_id', '<div class="invalid-feedback">:message</div>') !!}
         </div>
          </div>
@@ -76,7 +76,7 @@
             <div class="mb-12">
         <div class="form-group">
             {{ Form::label('Sugerencias') }}
-            {{ Form::text('sugerencias', $computo->sugerencias, ['class' => 'form-control' . ($errors->has('sugerencias') ? ' is-invalid' : ''), 'placeholder' => 'Sugerencia']) }}
+            {{ Form::text('sugerencias', $computo->sugerencias, ['class' => 'form-control' . ($errors->has('sugerencias') ? ' is-invalid' : ''), 'placeholder' => 'Sugerencias']) }}
             {!! $errors->first('sugerencias', '<div class="invalid-feedback">:message</div>') !!}
         </div>
          </div>

@@ -1,12 +1,12 @@
 @extends('adminlte::page')
-@section('title', 'Dashboard')
+@section('title', 'Tipos')
 
 @section('content_header')
         <a class="btn btn-primary btn-sm float-right"  href="{{route('admin.tipos.create')}}">
         Crear tipo
         </a>
 
-<h1>Lista de tipos de insumos</h1>
+<h1>Lista de tipos.</h1>
 @stop
 
 @section('content')

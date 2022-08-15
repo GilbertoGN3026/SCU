@@ -1,8 +1,8 @@
 @extends('adminlte::page')
-@section('title', 'Dashboard')
+@section('title', 'Registro')
 
 @section('content_header')
-<h1>Editar tipo de insumo</h1>
+<h1>Editar tipo.</h1>
 @stop
 
 @section('content')

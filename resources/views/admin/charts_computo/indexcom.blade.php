@@ -1,5 +1,5 @@
 @extends('adminlte::page')
-@section('title', 'Dashboard')
+@section('title', 'Gráficos')
 
 @section('content_header')
 <h1>Gráficas de Equipo de Cómputo, Impresiones y Escaneo.</h1>
@@ -49,7 +49,7 @@ var datas = <?php echo json_encode($datas)?>;
             }
         },
         series: [{
-            name: 'Registros de insumos',
+            name: 'Registros de EC-I-E',
             data: datas
         }],
         responsive: {
@@ -142,10 +142,14 @@ var comp3 = <?php echo json_encode($comp3)?>;
             text: 'Licenciaturas'
         },
         subtitle: {
-            text: 'Registro de los solicitantes de Equipo de Cómputo, Escaneo e Impresiones por carrera'
+            text: 'Registro de los solicitantes por carrera'
         },
         xAxis: {
-            categories: ['Psicología','Educación','Trabajo social','Cultura Física y Deporte','Otros',
+            categories: ['Cultura Física y Deporte',
+                         'Educación',
+                         'Psicología',
+                         'Trabajo Social',
+                         'Otros',
             ]
         },
         yAxis: {
@@ -200,11 +204,11 @@ var comp4 = <?php echo json_encode($comp4)?>;
             text: 'Usuarios'
         },
         subtitle: {
-         text: 'Registro de los solicitantes de Equipo de Cómputo, Escaneo e Impresiones por usuario'
+         text: 'Registro de los solicitantes por usuario'
 
         },
         xAxis: {
-            categories: ['Alumno','Administrativo','Externo'
+            categories: ['Administrativo','Alumno','Externo'
             ]
         },
         yAxis: {

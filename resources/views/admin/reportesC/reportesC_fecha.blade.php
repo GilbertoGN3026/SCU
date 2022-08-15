@@ -1,12 +1,12 @@
 @extends('adminlte::page')
-@section('title', 'Dashboard')
+@section('title', 'Reportes')
 
 @section('content_header')
 
  
 
  
-<h1>Reporte de insumos por fecha</h1>
+<h1>Reporte de Equipos de Cómputo, Impresiones y Escaneo por fecha.</h1>
 
 @stop
 

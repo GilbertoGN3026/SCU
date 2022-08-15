@@ -1,5 +1,5 @@
 @extends('adminlte::page')
-@section('title', 'Dashboard')
+@section('title', 'EC-I-E')
 
 @section('content_header')
 
@@ -10,29 +10,7 @@
 
 @stop
 @section('content')
-<!DOCTYPE html>
-<html lang="es">  
-<head>    
-    <title>Salas de cómputo</title>    
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-     
-    <!-- Fonts -->
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap">
 
-        <!-- Styles -->
-        <link rel="stylesheet" href="{{ mix('css/app.css') }}">
-        <link rel="stylesheet" type="text/css" href="estilos.css">
-      
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-        @livewireStyles
-
-        <!-- Scripts -->
-        <script src="{{ mix('js/app.js') }}" defer></script>  
-       
-       
-</head>  
-<body >
 @if(session('success'))
 <div class="alert alert-success">
     <strong>{{session('success')}}</strong>
@@ -46,11 +24,11 @@
        <table class="table table-striped">
   <thead class="table-dark">
                 <tr>
-                    <th>ID</th>
+                    
                     <th>Solicitante</th>
                     <th>No. de Cuenta</th>
                     <th>Tipo de servicio</th>
-                    <th>Número de Equipo, Impreiones o Escaneos</th>
+                    <th>Número de Equipo, Impresiones o Escaneos</th>
                     <th>Licenciatura</th>
                     <th>Usuario</th>
                     <th>Sugerencia</th>
@@ -62,7 +40,7 @@
             <tbody>
                 @foreach($computos as $computo)
                 <tr>
-                    <td>{{$computo->id}}</td>
+                    
                     <td>{{$computo->nombre_completo}}</td>
                     <td>{{$computo->numero_cuenta}}</td>
                     <td>{{$computo->servicio->nombre_servicio}}</td>
@@ -122,6 +100,5 @@
      </div>
 </div>
 
-</body>
-</html>
+
 @stop

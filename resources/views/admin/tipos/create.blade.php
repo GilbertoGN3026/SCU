@@ -1,5 +1,5 @@
 @extends('adminlte::page')
-@section('title', 'Dashboard')
+@section('title', 'Registro)
 
 @section('content_header')
 <h1>Crear nuevo tipo</h1>

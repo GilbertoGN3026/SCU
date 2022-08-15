@@ -1,10 +1,10 @@
 @extends('adminlte::page')
-@section('title', 'Dashboard')
+@section('title', 'Reportes')
 
 @section('content_header')
 
   
-<h1>Reporte por meses</h1>
+<h1>Reporte por meses.</h1>
 
 @stop
 

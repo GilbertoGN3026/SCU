@@ -1,8 +1,8 @@
 @extends('adminlte::page')
-@section('title', 'Dashboard')
+@section('title', 'Gráficos')
 
 @section('content_header')
-<h1>Gráficas de insumos.</h1>
+<h1>Gráficos de insumos.</h1>
 @stop
 
 @section('content')
@@ -25,7 +25,7 @@ var datas = <?php echo json_encode($datas)?>;
     type: 'column'
   },
         title: {
-            text: 'Registros de solicitantes por mes'
+            text: 'Registros de solicitantes por mes "Insumos"'
         },
         subtitle: {
             text: ''
@@ -37,7 +37,7 @@ var datas = <?php echo json_encode($datas)?>;
         },
         yAxis: {
             title: {
-                text: 'Número de insumos'
+                text: 'Número de registros'
             }
         },
         legend: {
@@ -88,15 +88,19 @@ var insu2 = <?php echo json_encode($insu2)?>;
             text: 'Licenciaturas'
         },
         subtitle: {
-            text: 'Registro de los solicitantes de insumos por carrera'
+            text: 'Registro de los solicitantes por carrera'
         },
         xAxis: {
-            categories: ['Psicología','Educación','Trabajo social','Cultura Física y Deporte','Otros',
-            ]
+            categories: ['Cultura Física y Deporte',
+                         'Educación',
+                         'Psicología',
+                         'Trabajo Social',
+                         
+                         ]
         },
         yAxis: {
             title: {
-                text: 'Número de solicitantes'
+                text: 'Número de registros'
             }
         },
         legend: {
@@ -147,23 +151,28 @@ var insu3 = <?php echo json_encode($insu3)?>;
             text: 'Tipos de insumos'
         },
         subtitle: {
-            text: 'Registro de los solicitantes de insumos por tipo'
+            text: 'Registro de los solicitantes por tipo'
         },
         xAxis: {
-            categories: ['Bocinas',		
-	                        'Cable HDMI',		
-                          'Cable VGA',	
-                          'Cañon',
-                          'Control',	
-                          'Convertidor',	
-                          'Extensión',
-                          'Mimio',
-                          'Otro',
+            categories: ['Audífonos',
+                         'Bocinas',
+                         'Cable C',
+                         'Cable HDMI',
+                         'Cable IPhone',
+                         'Cable V8',
+                         'Cable VGA',
+                         'Cañones HDMI',
+                         'Cañones VGA',
+                         'Controles',
+                         'Convertidores',
+                         'Extensiones',
+                         'Señalador',
+                         'Otros',
                         ]
         },
         yAxis: {
             title: {
-                text: 'Número de solicitantes'
+                text: 'Número de registros'
             }
         },
         legend: {
