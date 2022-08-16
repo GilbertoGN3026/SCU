@@ -39,7 +39,7 @@
 
            <thead class="thead-dark">
                 <tr>
-                   <th>ID</th>
+                  
                     <th>Solicitante</th>
                     <th>No. de Cuenta</th>
                     <th>Tipo de servicio</th>
@@ -55,7 +55,7 @@
             <tbody>
                 @foreach($computos as $computo)
                 <tr>
-                    <td>{{$computo->id}}</td>
+                   
                     <td>{{$computo->nombre_completo}}</td>
                     <td>{{$computo->numero_cuenta}}</td>
                     <td>{{$computo->servicio->nombre_servicio}}</td>

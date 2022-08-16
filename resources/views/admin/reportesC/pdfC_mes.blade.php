@@ -11,7 +11,7 @@
   </head>
   
   <body>
-  <h1>Reporte de insumos por meses Enero-Junio</h1>
+  <h1>Reporte de Equipos de Cómputo, Impresiones y Escaneo por meses Enero-Junio.</h1>
    <div class="card">
 
     <div class="card-body">

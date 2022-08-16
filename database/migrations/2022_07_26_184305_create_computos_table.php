@@ -25,7 +25,7 @@ return new class extends Migration
             $table->foreign('licenciatura_id')->references('id')->on('licenciaturas')->onDelete("cascade");
             $table->bigInteger('usuar_id')->unsigned();
             $table->foreign('usuar_id')->references('id')->on('usuars')->onDelete("cascade");
-            $table->string('sugerencias');
+            $table->string('sugerencias')->nullable()->default('sin sugerencia');
             $table->timestamps();
         });
     }

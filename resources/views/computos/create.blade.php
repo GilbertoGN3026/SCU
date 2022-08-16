@@ -104,7 +104,7 @@
 
     <div class="card col-sm-6 p-3" >
             <div class="mb-3">
-            <h1  class="d-flex justify-content-center">Universidad Autonoma del Estado de Mexico FACICO {{\Carbon\Carbon::now()->year}}A </h1>
+            <h1  class="d-flex justify-content-center">Universidad Autónoma del Estado de México FACICO {{\Carbon\Carbon::now()->year}} </h1>
              </div>
               <div class="boton">
 

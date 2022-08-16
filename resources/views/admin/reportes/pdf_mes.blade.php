@@ -11,7 +11,7 @@
   </head>
   
   <body>
-  <h1>Reporte de insumos por mes Enero-Junio</h1>
+  <h1>Reporte de insumos por mes Enero-Junio.</h1>
    <div class="card">
 
     <div class="card-body">

@@ -32,7 +32,7 @@ class Computo extends Model
         'numero_eie' => 'required',
         'licenciatura_id' => 'required',
         'usuar_id' => 'required',
-		'sugerencias' 
+		'sugerencias'
 		
     ];
 

@@ -36,7 +36,7 @@ class ReporteController extends Controller
      //reporte de todos los insumos
      public function reporte_allinsumos()
      { 
-        $insumos=Insumo::paginate(2);
+        $insumos=Insumo::paginate(10);
          return view('admin.reportes.reporte_allinsumos',compact('insumos'));
  
      }

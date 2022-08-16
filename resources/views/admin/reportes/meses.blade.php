@@ -17,12 +17,12 @@
   <div class="row">
     <div class="col">
        <div class="text-center">
-            <a class="btn btn-sm float-center" style="background:#11340D; color:white;" href="{{route('admin.reportes.reporte_mes')}}">Enero-Junio</a>
+            <a class="btn btn-sm float-center" style="background:#2B7E2D; color:white;" href="{{route('admin.reportes.reporte_mes')}}">Enero-Junio</a>
         </div>
     </div>
     <div class="col">
      <div class="text-center">
-            <a class="btn btn btn-sm float-center" style="background:#11340D; color:white;" href="{{route('admin.reportes.reporte_mes2')}}">Julio-Diciembre</a>
+            <a class="btn btn btn-sm float-center" style="background:#2B7E2D; color:white;" href="{{route('admin.reportes.reporte_mes2')}}">Julio-Diciembre</a>
         </div>
     </div>
    

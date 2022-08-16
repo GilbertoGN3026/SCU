@@ -13,7 +13,7 @@
         <div class="card col-sm-12 p-3" >
             <div class="mb-12">
         <div class="form-group">
-            {{ Form::label('Número_cuenta') }}
+            {{ Form::label('Número de cuenta') }}
             {{ Form::text('numero_cuenta', $computo->numero_cuenta, ['class' => 'form-control' . ($errors->has('numero_cuenta') ? ' is-invalid' : ''), 'placeholder' => 'Número de Cuenta']) }}
             {!! $errors->first('numero_cuenta', '<div class="invalid-feedback">:message</div>') !!}
         </div>

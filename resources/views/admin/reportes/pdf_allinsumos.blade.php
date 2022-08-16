@@ -11,7 +11,7 @@
   </head>
   
   <body>
-  <h1>Reporte de todos los insumos </h1>
+  <h1>Reporte de insumos. </h1>
    <div class="card">
 
     <div class="card-body">
@@ -22,7 +22,7 @@
             
                     <strong>{{\Carbon\Carbon::now()->format('d/m/Y')}}</strong>
                 
-           
+                <h1></h1>
                 <span>Cantidad de Registros: <b> </b> </span>
           
                     <strong>{{$insumos->count()}}</strong>
